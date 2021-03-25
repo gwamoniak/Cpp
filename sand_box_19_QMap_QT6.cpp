@@ -16,8 +16,8 @@ class Test
 
     ~Test(){qInfo() << "DeConstructred";} ;
 
-    QString text() const;
-    void setText(const QString &text);
+    QString text() const {return m_text;};
+    void setText(const QString &text){m_text = text;};
 
 private:
     QString  m_text;
@@ -138,14 +138,4 @@ int main(int argc, char *argv[])
     removingFromTest(tests, "New test");
 
     return a.exec();
-}
-
-QString Test::text() const
-{
-return m_text;
-}
-
-void Test::setText(const QString &text)
-{
-m_text = text;
 }
