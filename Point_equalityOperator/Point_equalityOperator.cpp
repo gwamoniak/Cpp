@@ -1,6 +1,3 @@
-// Point_equalityOperator.cpp : This file contains the 'main' function. Program execution begins and ends there.
-// check out LearnQtGuide: https://www.youtube.com/channel/UCUYUFiuJ5XZ3JYtbq5dXRKQ
-
 #include <iostream>
 #include "point.h"
 
