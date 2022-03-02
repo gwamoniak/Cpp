@@ -1,1 +1,1 @@
-# This is example of Comparison operators in c++ 20
+This is example of Comparison operators in c++ 20
